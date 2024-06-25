@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logo from "../../public/Logo .svg";
-import { RxHamburgerMenu } from "react-icons/rx";
+import logo from '../Logo .svg'
+// import { RxHamburgerMenu } from "react-icons/rx";
 function NavigationLinks() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const toggleMenu = () => {
@@ -18,8 +18,8 @@ function NavigationLinks() {
 				<div className="bar"></div>
 				<div className="bar"></div>
 			</div>
-            {/* React icon menu below, try as substitute later */}
-            
+			{/* React icon menu below, try as substitute later */}
+
 			{/*<div>
 				<RxHamburgerMenu />
 			</div>*/}
@@ -27,26 +27,25 @@ function NavigationLinks() {
 			{/* nav items */}
 			<ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
 				<li>
-                    <a href="/">Home</a>
-                    
+					<a href="">Home</a>
 				</li>
 				<li>
-					<a href="/">About</a>
+					<a href="">About</a>
 				</li>
 				<li>
-					<a href="/">Services</a>
+					<a href="">Services</a>
 				</li>
 				<li>
-					<a href="/">Menu</a>
+					<a href="">Menu</a>
 				</li>
 				<li>
-					<a href="/">Reservations</a>  
+					<a href="">Reservations</a>
 				</li>
 				<li>
-					<a href="/">Order Online</a>
+					<a href="">Order Online</a>
 				</li>
 				<li>
-					<a href="/">Login</a>
+					<a href="">Login</a>
 				</li>
 			</ul>
 		</nav>
